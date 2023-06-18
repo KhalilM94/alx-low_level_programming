@@ -18,21 +18,24 @@ int main(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			for (k = i; k <= 9; k++)
+			n = j + 1;
+			k = i;
+			for (; k <= 9; k++)
 			{
-				for (n = j + 1; n <= 9; n++)
+				for (; n <= 9; n++)
 				{
 					putchar ((i % 10) + '0');
 					putchar ((j % 10) + '0');
 					putchar (' ');
 					putchar ((k % 10) + '0');
 					putchar ((n % 10) + '0');
-					if (i != 9 || j !=  8)
+					if (i != 9 || j != 8 ||  k !=  9 || n != 9)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				n = 0;
 			}
 		}
 	}
