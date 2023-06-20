@@ -2,6 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+#include "print_alphabet.c"
 /* betty style doc for function main goes there */
 /**
  * print_alphabet_x10 - Short description, positive_or_negative

@@ -2,6 +2,8 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+#include "0-putchat.c"
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * main - Short description, positive_or_negative

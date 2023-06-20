@@ -3,6 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * _islower - Short description, positive_or_negative
