@@ -11,19 +11,10 @@
  * Description: Evaluates sign of a function.
  * Return: 0
  */
-int main(void)
+int _putchar(void)
 {
 
 	/* your code goes there */
 
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
