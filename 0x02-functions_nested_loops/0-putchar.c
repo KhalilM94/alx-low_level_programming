@@ -3,7 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 #include "0-putchar.c"
-#include "main.h"
+#include <main.h>
 /* betty style doc for function main goes there */
 /**
  * main - Short description, positive_or_negative
