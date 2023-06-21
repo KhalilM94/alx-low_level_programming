@@ -1,20 +1,18 @@
 #include "main.h"
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-#include <stdio.h>
-#include "0-putchar.c"
-/* betty style doc for function main goes there */
 /**
- * main - Short description, positive_or_negative
- *
- * Description: Evaluates sign of a function.
- * Return: 0
- */
-int _putchar(void)
+*main - prints Holberton
+*Return: 0
+*/
+int main(void)
 {
-
-	/* your code goes there */
-
-	return (write(1, &c, 1));
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
