@@ -2,7 +2,7 @@
 #include "main.h"
 /* betty style doc for function main goes there */
 /**
- * abs - Short description, positive_or_negative
+ * _abs - Short description, positive_or_negative
  * @n : the ASCII position of the char to test
  * Description: Evaluates sign of a function.
  * Return: 0
