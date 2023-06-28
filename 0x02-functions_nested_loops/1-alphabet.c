@@ -1,8 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 /* more headers goes there */
-#include <stdio.h>
-#include "1-alphabet.c"
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * print_alphabet - Short description, positive_or_negative
@@ -24,5 +21,4 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-	return (0);
 }
