@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = 0; b < 4000000; i++)
 	{
-		if (i % 2 == 0)
+		if (b % 2 == 0)
 			sum = sum + b;
 		n = a + b;
 
