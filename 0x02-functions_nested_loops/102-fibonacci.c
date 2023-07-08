@@ -21,7 +21,7 @@ int main(void)
 	{
 		f = a + b;
 		printf("%li", f);
-		
+	
 		if (i % 2 == 0)
 			a = f;
 		else
