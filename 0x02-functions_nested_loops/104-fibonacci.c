@@ -23,6 +23,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fib;
 	}
+	printf(", ");
 	fib1_1 = fib1 / 10000000000;
 	fib1_2 = fib1 % 10000000000;
 	fib2_1 = fib2 / 10000000000;
