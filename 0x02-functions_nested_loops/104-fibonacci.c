@@ -10,16 +10,16 @@
 
 int main(void)
 {
-	unsigned long a = 1, b = 2, sum = 0;
+	float fib1 = 1, fib2 = 2, fib;
 	int i;
 
-	printf("%lu, ", a);
-	for (i = 0; i < 98; i++)
+	printf("%.0f, %.0f", fib1, fib2);
+	for (i = 2; i < 98; i++)
 	{
-		printf("%lu, ", b);
-		sum = a + b;
-		a = b;
-		b = sum;
+		fib = fib1 + fib2;
+		printf(", %.0f", fib);
+		fib1 = fib2;
+		fib2 = fib;
 	}
 	printf("\n");
 	return (0);
